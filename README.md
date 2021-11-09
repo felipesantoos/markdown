@@ -89,8 +89,8 @@ echo "Hello, World!";
 ```
 Alinhado à esquerda|Centralizado|Alinhado à direita
 :------------------|:----------:|-----------------:
-Valor              |Valor       |Programmer
+Valor              |Valor       |Valor
 ```
 Alinhado à esquerda|Centralizado|Alinhado à direita
 :------------------|:----------:|-----------------:
-Valor              |Valor       |Programmer
+Valor              |Valor       |Valor
