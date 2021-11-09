@@ -57,3 +57,40 @@ Ordenadas: 1., 2., 3., etc. na frente.
 ![Texto alternativo ou título da imagem](URL da imagem)
 ```
 ![Markdown icon](https://static.thenounproject.com/png/3388541-200.png)
+# Citações
+> Bloco de citação.
+# Código
+```
+Código em linha: `<code>`
+Código de múltiplas linhas: ```<code>...</code>``` ou ~~~<code>...</code>~~~
+```
+`<code>`
+```html
+<!-- HTML -->
+<code>
+...
+</code>
+```
+~~~javascript
+// JavaScript
+var i = 0;
+alert("Hello, World!");
+~~~
+```php
+$i = 0;
+echo "Hello, World!";
+```
+~~~json
+"json": true,
+"name": "Felipe",
+"age": 19
+~~~
+# Tabelas
+```
+Alinhado à esquerda|Centralizado|Alinhado à direita
+:------------------|:----------:|-----------------:
+Valor              |Valor       |Programmer
+```
+Alinhado à esquerda|Centralizado|Alinhado à direita
+:------------------|:----------:|-----------------:
+Valor              |Valor       |Programmer
