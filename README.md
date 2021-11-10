@@ -1,7 +1,7 @@
 # Markdown
 > Minha documentação pessoal da sintaxe Markdown.
 - O Markdown funciona como um conversor de texto para HTML.
-- Os caracteres **não-alfabéticos** são traduzidos paras as mais diversas tags HTML.
+- Os caracteres **não-alfabéticos** são traduzidos para as mais diversas tags HTML.
 - Os **textos sem formatação** são convertidos em parágrafos simples ```<p>```.
 
 # Titulação
@@ -77,6 +77,7 @@ var i = 0;
 alert("Hello, World!");
 ~~~
 ```php
+// PHP
 $i = 0;
 echo "Hello, World!";
 ```
@@ -89,8 +90,45 @@ echo "Hello, World!";
 ```
 Alinhado à esquerda|Centralizado|Alinhado à direita
 :------------------|:----------:|-----------------:
-Valor              |Valor       |Valor
+Valor              |   Valor    |             Valor
 ```
 Alinhado à esquerda|Centralizado|Alinhado à direita
 :------------------|:----------:|-----------------:
-Valor              |Valor       |Valor
+Valor              |   Valor    |             Valor
+# Linha horizontal
+```
+---
+```
+---
+# Nota de rodapé
+```
+Esta frase tem um nota de rodapé. [^1]
+[^1]: Esta é a nota de rodapé.
+```
+Esta frase tem uma nota de rodapé. [^1]
+[^1]: Esta é a nota de rodapé.
+# Heading with ID
+```
+### Título com ID {#titulo-com-id}
+```
+# Lista de definições
+```
+Termo 1 
+: Definição 1
+
+Termo 2 
+: Definição 1
+: Definição 2
+```
+# Texto riscado
+```
+Esse é um ~~texto riscado~~.
+```
+Esse é um ~~texto riscado~~.
+# Lista de tarefas
+```
+- [x] Tarefa 1
+- [ ] Tarefa 2
+```
+- [x] Tarefa 1
+- [ ] Tarefa 2
