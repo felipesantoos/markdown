@@ -120,12 +120,6 @@ Termo 2
 : Definição 1
 : Definição 2
 ```
-Termo 1 
-: Definição 1
-
-Termo 2 
-: Definição 1
-: Definição 2
 # Texto riscado
 ```
 Esse é um ~~texto riscado~~.
